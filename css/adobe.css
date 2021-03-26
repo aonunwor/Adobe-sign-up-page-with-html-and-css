@@ -1,0 +1,168 @@
+/*9th March 2021*/
+/*Background Image styling*/
+body{
+    height:200vh;
+    background-image: url("../images/Fotolia.jpg");
+    height: 950px;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.img{
+    position: relative;
+}
+
+.footer{
+    display:flex;
+    padding-top: 50px;
+}
+
+.div-1{
+    margin-top: 30%;
+    margin-left: 50px;
+}
+/*Form styling*/
+.container{
+    position: absolute;
+    right: 0;
+    margin: 150px;
+    margin-top: 0px;
+    max-width: 500px;
+    min-width: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+h3{
+    color: white;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+
+/* For First Name & Last Name */
+.input-div2{
+    display: flex;
+}
+
+input[type=Email]{
+    width: 100%;
+    display: inline-block;
+    border: none;
+}
+ /*Form field input styling*/
+input[type=text]{
+    width: 100%;
+    display: inline-block;
+    border:0;
+    outline:0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+input[type=text]:hover{
+    width: 100%;
+    display: inline-block;
+    border:0;
+    outline:0;
+    border-bottom: 1px solid blue;
+}
+
+input[type=password]{
+    width: 100%;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+input[type=password]:hover{
+    width: 100%;
+    display: inline-block;
+    border:0;
+    outline:0;
+    border-bottom: 1px solid blue;
+}
+
+.input-div3{
+    display: flex;
+}
+
+.select-div{
+    width:100%;
+    border:0;
+    outline: 0;
+    border-bottom:1px solid #bcbcbc;
+
+}
+select{
+    width: 30%;
+    display: inline-block;
+    border: none;
+}
+
+.select-div2{
+    width: 100%;
+    border:0;
+    outline: 0;
+    border-bottom:1px solid #bcbcbc;
+}
+.input-div2:hover{
+    border-bottom: blue;
+}
+
+/*Button styling*/
+.Create-button{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+.Create-button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button[type=button]{
+    color: white;
+    border-radius: 16px;
+    background-color: blue;
+    max-height: 18px;
+    max-width: 18px;
+    border-color: transparent;
+}
+button[type=button]:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*Adobe logo Position*/
+.header img{
+    float: left;
+    width: 170px;
+    height: 48px;
+    background: coral;
+    margin-left: 50px !important;
+}
+
+.header h3{
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+

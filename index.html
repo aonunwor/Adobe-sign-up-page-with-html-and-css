@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-LA-Compatible" content="IE=edge">
+            <meta name="Description" content="Adode ID">
+            <meta name="keyword" content="Create, Account, Forms, flex, box">
+            <title>Adobe ID</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/adobe.css">
+        </head> 
+        <body>
+
+<!--Adobe Logo-->
+                <div class="footer">
+                    <div class="div-1">
+                        <img src="images/adobe_logo.jpg" alt="logo here">
+                        <h3>Sign in or create an account</h3>
+                    </div>
+
+                    <div class="dïv-2">
+<!--Adobe create an account form-->
+                        <form action="https://auth.services.adobe.com/" method="POST" class="container" style="border: 1px;">
+                            <h1>Create an account</h1>
+                            <p>Already have an account?<span style="margin: 3px; color: blue"><a href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2Fadobedotcom2%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.adobe.com%252Fafrica%252F%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize%26state%3D%257B%2522ac%2522%253A%2522%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=adobedotcom2&scope=creative_cloud%2CAdobeID%2Copenid%2Cgnav%2Cread_organizations%2Cadditional_info.projectedProductContext%2Csao.ACOM_CLOUD_STORAGE%2Csao.stock%2Csao.cce_private%2Cadditional_info.roles&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2Fadobedotcom2%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.adobe.com%252Fafrica%252F%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize%26response_type%3Dtoken%26state%3D%257B%2522ac%2522%253A%2522%2522%257D&state=%7B%22ac%22%3A%22%22%7D&relay=fb2275ec-a708-4670-a8df-0e74df8a8be3&locale=en_US&flow_type=token&idp_flow_type=login#/">Sign in</a></span></p>
+                            <br>   
+                            <p></p>
+                        <div>
+                            <div>
+                                <label>Email address</label>
+                                    <input style="outline:none" class="input-type" type="text">
+                            </div>
+                        </div>
+                            <br>
+
+        <!--Creating first name and last name input fields-->    
+                            <div class="input-div2">
+                                <div class="one">
+                                    <label>First Name</label>
+                                        <input class="input-type" type="text">
+                                </div>
+                                <div class="two">
+                                    <label>Last Name</label>
+                                        <input style="outline:none" class="input-type" type="text">
+                                </div>
+                            </div>
+                                
+        <!--Password input field-->                  
+                            <p></p>
+                            <br>
+                            <div>
+                                <div>
+                                    <label>Password</label>
+                                        <input style="outline:none" class="input-type" type="password">
+                                </div>
+                            </div>    
+                            <br> 
+                            <br>
+
+        <!--Date of birth and calender input fields-->
+                        
+                            <div>
+                                <label>Date of birth</label>
+                                    <button type="button" aria-label="Why do we need this" data-id="TooltipFieldLabel__tooltip" class="spectrum-Tool"><a href="#/">i</a></button>
+                            </div>                    
+                            <br>
+                        <div class="input-div3">
+                            <div>
+                                <label>Month</label>
+                                <br><br>
+                                    <select class="select-div">
+                                        <option selected>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                    </select>
+                            </div>
+                            <div>
+                                <label>Day</label>
+                                <br><br>
+                                    <input style="outline:none" class="input-type" type="text">
+                            </div>
+                            <div>
+                                <label>Year</label>
+                                <br><br>
+                                    <input style="outline:none" class="input-type" type="text">
+                            </div>
+                        </div>
+                            <br><br>
+
+        <!--Country/Region selection field-->
+                        <div>
+                            <div>
+                                <label>Country/Region</label>
+                                <br><br>                                  
+                                <select class="select-div2">
+                                    <option selected>Nigeria</option>
+                                    <option>Netherlands</option>
+                                    <option>Australia</option>
+                                    <option>Canada</option>
+                                    <option>France</option>
+                                    <option>USA</option>
+                                    <option>Gabon</option>
+                                </select>
+                            </div>
+                        </div>
+
+        <!--Form comments field-->
+                            <p>The<span style="margin: 3px; color: blue;">Adobe family of companies</span> may keep me informed with<span style="margin:3px; color: blue;">personalized</span>emails about products and services. See our<span style="margin:3px; color: blue;">privacy policy</span>for more details or opt-out at any time.</p>
+                            <input type="checkbox">
+                            <label>Please contact me via email</label>
+                            <p>By clicking Create account, I agree that I have read and accepted the<span style="margin:3px; color: blue;">Terms of use</span>of the<span style="margin:3px; color: blue;">privacy policy.</span></p>
+
+        <!--Create account button-->
+                            <div style="text-align: right;">
+                            <a href="#/" class="Create-button">Create account</a>
+                            <br><br>
+                            <hr>
+
+        <!--Privacy policy captcha bla bla bla-->
+                            <p>Protected by reCAPTCHA and subject to the Google<span style="margin:3px; color: blue;">Privacy Policy</span>and<span style="margin:3px; color: blue;">Terms of Service.</span></p>
+                        </form>
+                </div>
+            </div>
+        </body>
+    </html>
