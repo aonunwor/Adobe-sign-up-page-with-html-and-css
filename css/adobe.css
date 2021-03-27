@@ -17,6 +17,7 @@ body{
 
 .img{
     position: relative;
+    background-image: url("../images/adobe_logo.jpg");
 }
 
 .footer{
@@ -140,10 +141,10 @@ select{
 
 button[type=button]{
     color: white;
-    border-radius: 16px;
+    border-radius: 10px;
     background-color: blue;
-    max-height: 18px;
-    max-width: 18px;
+    max-height: 17px;
+    max-width: 17px;
     border-color: transparent;
 }
 button[type=button]:hover{
@@ -155,14 +156,88 @@ button[type=button]:hover{
 .header img{
     float: left;
     width: 170px;
-    height: 48px;
-    background: coral;
+    height: auto;
     margin-left: 50px !important;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
 }
 
 .header h3{
     position: relative;
     top: 18px;
     left: 10px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:550px){
+
+    body{
+        height:200vh;
+        background-image: url("../images/Fotolia.jpg");
+        height: 700px;
+        min-height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container{
+        position: absolute;
+        right: 0;
+        margin: 75px;
+        margin-top: 0px;
+        max-width: 350px;
+        min-width: 200px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 7px;
+        height: 600px; 
+    }
+    input[type=text]{
+        width: 100%;
+        display: inline-block;
+        border:0;
+        outline:0;
+        border-bottom: 1px solid #d1d1d1;
+    } 
+    .Create-button{
+        background-color: blue;
+        color: white;
+        border: 1px solid blue;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 8px 18px;
+        text-decoration: none;
+        margin: 13px 0;
+        transition: background-color 200ms ease-in-out;
+    }
+    .Create-button:hover{
+        background-color: blue;
+        color: white;
+    }
+    button[type=button]{
+        color: white;
+        border-radius: 16px;
+        background-color: blue;
+        max-height: 9px;
+        max-width: 9px;
+        border-color: transparent;
+        font-size: 0.5vh;
+    }
+    button[type=button]:hover{
+        background-color: blue;
+        color: white;
+    }
+    .select-div{
+        width:200%;
+        border:0;
+        outline: 0;
+        border-bottom:1px solid #bcbcbc;
+    }
+    
 }
 
